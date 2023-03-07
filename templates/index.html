@@ -31,9 +31,9 @@
 
 	<style>
 		.button {
-			background-color:#00ffee;
+			background-color:#2369be;
 			border: none;
-			color: white;
+			color: rgb(174, 22, 22);
 			padding: 15px 32px;
 			text-align: center;
 			text-decoration: none;
@@ -54,7 +54,7 @@
 		<div class="container">
 
 			<div class="w3l_logo">
-				<h1 class="ml-auto" style="font-display: Lato;font-size: 3em;"><a href="index.html">Virtual TrailRoom</a></h1>
+				<h1 class="ml-auto" style="font-display: Lato;font-size: 3em;"><a href="index.html">Virtual TrailRoom🪞</a></h1>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -66,157 +66,165 @@
 				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<ul id="myTab" class="nav nav-tabs" role="tablist">
 						<li role="presentation" class="active"><a href="#home" id="home-tab" role="tab"
-								data-toggle="tab" aria-controls="home">Necklaces</a></li>
+								data-toggle="tab" aria-controls="home">Necklaces📿</a></li>
 						<li role="presentation"><a href="#earings" role="tab" id="earings-tab" data-toggle="tab"
-								aria-controls="earings">Earings</a></li>
+								aria-controls="earings">Earings💍</a></li>
 						<li role="presentation"><a href="#hats" role="tab" id="hats-tab" data-toggle="tab"
-								aria-controls="hats">Hats and Tiaras</a></li>
+								aria-controls="hats">Hats and Tiaras🎩</a></li>
 						<li role="presentation"><a href="#tshirts" role="tab" id="tshirts-tab" data-toggle="tab"
-								aria-controls="tshirts">T-shirts</a></li>
+								aria-controls="tshirts">T-shirts👕</a></li>
 						<li role="presentation"><a href="#goggles" role="tab" id="goggles-tab" data-toggle="tab"
-								aria-controls="goggles">Goggles</a></li>
+								aria-controls="goggles">Goggles👓</a></li>
 					</ul>
 
 					<!--Necklaces -->
 					<div id="myTabContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
 							<div class="e_commerce_tabs">
+
 								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
 									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/1.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Silver Necklace</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add"
+									<img src="../static/images/Necklace1/1.png" alt=" " class="img-responsive" />
+									
+									</div>																																																																																								
+									   <div class="card-body card-content">
+										 <h3 class="card-title">Silver Necklace</h3>
+										 <div class="simpleCart_shelfItem">
+										 <a class="item_add btn btn-primary"
 												href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,1.png') }}">Try
 												it Now!
 											</a>
-										</p>
+										</div>
+									   </div>
 									</div>
 								</div>
 
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/2.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Gold Necklace</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Necklace1,2.png') }}">Try it Now!</a></p>
-									</div>
-								</div>
-
+							
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/4.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Silver Necklace</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Necklace1,4.png') }}">Try it Now!</a></p>
-									</div>
-								</div> 
-
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/5.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Thread necklace</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Necklace1,5.png') }}">Try it Now!</a></p>
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Necklace1/3.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Diamond Necklace</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,3.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
-
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/6.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Gold Chain</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add"
-												href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,6.png') }}">Try
-												it Now!</a></p>
-									</div>
-								</div>
-
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/7.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Gold Chain</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add"
-												href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,7.png') }}">Try
-												it Now!</a></p>
-									</div>
-								</div>
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/8.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Silver Chain</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add"
-												href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,8.png') }}">Try
-												it Now!</a></p>
-									</div>
-								</div>
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/9.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Gold Chain</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add"
-												href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,9.png') }}">Try
-												it Now!</a></p>
-									</div>
-								</div>
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Necklace1/12.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Gold Chain</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add"
-												href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,12.png') }}">Try
-												it Now!</a></p>
-									</div>
-								</div>
-
 								
 								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
 										<div class="hs-wrapper">
-											<img src="../static/images/Necklace1/3.png" alt=" " class="img-responsive" />
-											<div class="w3_hs_bottom">
+										<img src="../static/images/Necklace1/4.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Platinum Necklace</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Necklace1,4.png') }}">Try it Now!</a>
 											</div>
-										</div>
-										<h5>Silver Pendant</h5>
-										<div class="simpleCart_shelfItem">
-											<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-											file_path='static,images,Necklace1,3.png') }}">Try it Now!</a></p>
-										</div>
+										   </div>
 									</div>
+								</div>
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Necklace1/5.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Thread Necklace</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Necklace1,5.png') }}">Try it Now!</a>
+											</div>
+										   </div>
+									</div>
+								</div>
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Necklace1/6.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Designer silver Necklace</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,6.png') }}">Try it Now!</a>
+											</div>
+										   </div>
+									</div>
+								</div>
+
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Necklace1/7.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Gold Chain</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,7.png') }}">Try it Now!</a>
+											</div>
+										   </div>
+									</div>
+								</div>
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Necklace1/8.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Silver Chain</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,8.png') }}">Try it Now!</a>
+											</div>
+										   </div>
+									</div>
+								</div>
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Necklace1/9.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Gold Chain</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,9.png') }}">Try it Now!</a>
+											</div>
+										   </div>
+									</div>
+								</div>
+
+
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Necklace1/12.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Diamond Necklace</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Necklace1,12.png') }}">Try it Now!</a>
+											</div>
+										   </div>
+									</div>
+								</div>
 
 								<div class="clearfix"> </div>
 							</div>
@@ -226,94 +234,114 @@
 
 						<div role="tabpanel" class="tab-pane fade" id="earings" aria-labelledby="earings-tab">
 							<div class="e_commerce_tabs">
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Earrings2/1.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Goldwork earrings</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-									file_path='static,images,Earrings2,1.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Goldwork earrings</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Earrings2,1.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
+
+								
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Earrings2/2.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Studs</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Earrings2,2.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Studs</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Earrings2,2.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
+
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Earrings2/3.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Studs</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Earrings2,3.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Studs</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Earrings2,3.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Earrings2/4.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Silver Work Earings</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Earrings2,4.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Work earrings</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Earrings2,4.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Earrings2/5.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Goldwork earrings</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Earrings2,5.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Goldwork earrings</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Earrings2,5.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Earrings2/6.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Studs</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Earrings2,6.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Studs</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Earrings2,6.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Earrings2/7.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Hangings</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Earrings2,7.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Hangings</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST', file_path='images,Earrings2,7.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
+
 								<div class="clearfix"> </div>
 							</div>
 						</div>
@@ -322,231 +350,282 @@
 
 						<div role="tabpanel" class="tab-pane fade" id="hats" aria-labelledby="hats-tab">
 							<div class="e_commerce_tabs">
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/1.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom"> </div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,1.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,1.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/2.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,2.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,2.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/3.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,3.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,3.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/4.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,4.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,4.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/5.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,5.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,5.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/6.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,6.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,6.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/7.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,7.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,7.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/8.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,8.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,8.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/9.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,9.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,9.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/10.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,10.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,10.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/11.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Tiara</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,11.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Tiara</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,11.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
-
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/12.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Hat</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,12.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Hat</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,12.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/13.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Hat</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,13.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Hat</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,13.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
-
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/14.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Hats</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,14.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Hat</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,14.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/15.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Hats</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,15.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Hat</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,15.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
-
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/16.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Hats</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,16.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Hat</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,16.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tiaras3/17.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Hats</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-					file_path='static,images,Tiaras3,17.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Hat</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tiaras3,17.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
@@ -560,127 +639,163 @@
 
 						<div role="tabpanel" class="tab-pane fade" id="tshirts" aria-labelledby="tshirts-tab">
 							<div class="e_commerce_tabs">
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tops4/1.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Orange T-Shirt</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,1.png') }}">Try it Now!</a></p>
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Orange T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,1.png') }}">Try it Now!</a>
+											</div>
+										   </div>
 									</div>
 								</div>
 
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tops4/2.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Yellow T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,2.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Pink T-Shirt</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,2.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Tops4/4.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">White T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,4.png') }}">Try it Now!</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								
+								<div class="col-md-4 e_commerce_tab_left">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tops4/5.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Grey T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,5.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Orange T-Shirt</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,5.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
-
+								
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Tops4/7.jpg" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>White T-Shirt</h5>
-									<div class="simpleCart_shelfItem">
-											<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,7.jpg') }}">Try it Now!</a></p>
-									</div>
-								</div>
-
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tops4/8.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Black T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,8.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Black T-Shirt</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,8.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
+								
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tops4/9.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Red T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,9.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>White and Black full sleeves</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,9.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
 
+								
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tops4/11.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">White T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,11.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>White T-Shirt</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,11.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
 
+								
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tops4/12.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Pink T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,12.png') }}">Try it Now!</a>
+											</div>
 										</div>
 									</div>
-									<h5>Pink T-Shirt</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,12.png') }}">Try it Now!</a></p>
-									</div>
 								</div>
-								
-								
 
+
+								
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Tops4/16.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Grey Early Bird T-Shirt</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Tops4,16.png') }}">Try it Now!</a>
+											</div>
 										</div>
 									</div>
-									<h5>Grey Early Bird T-Shirt</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-												file_path='static,images,Tops4,16.png') }}">Try it Now!</a></p>
-									</div>
 								</div>
+
 								<div class="clearfix"> </div>
 							</div>
 						</div>
@@ -689,24 +804,27 @@
 
 						<div role="tabpanel" class="tab-pane fade" id="goggles" aria-labelledby="goggles-tab">
 							<div class="e_commerce_tabs">
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Sunglasses6/1.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
+										<img src="../static/images/Sunglasses6/100.png" alt=" " class="img-responsive" />
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Goggles</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,100.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Goggles</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Sunglasses6,1.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
 								<!-- <div class="col-md-4 e_commerce_tab_left">
 									<div class="hs-wrapper">
 										<img src="static/images/Sunglasses6/2.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
+										
 									</div>
 									<h5>Sun glasses</h5>
 									<div class="simpleCart_shelfItem">
@@ -716,127 +834,129 @@
 								</div> -->
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Sunglasses6/3.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Spetacles</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,3.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Spectacles</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Sunglasses6,3.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Sunglasses6/4.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Sun Glasses</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,4.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Sun glasses</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Sunglasses6,4.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Sunglasses6/5.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Sun glasses</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,5.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Shades</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-                                        file_path='static,images,Sunglasses6,5.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Sunglasses6/6.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Shades</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,6.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Shades</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-											file_path='static,images,Sunglasses6,6.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Sunglasses6/7.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Sun Glasses</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,7.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Gray Sunglasses</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-											file_path='static,images,Sunglasses6,7.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
+
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Sunglasses6/8.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Sun Glasses</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,8.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Blue Sunglasses</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-											file_path='static,images,Sunglasses6,8.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
-								<!-- <div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="static/images/Sunglasses6/9.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Funny Eyes</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-											file_path='static,images,Sunglasses6,9.png') }}">Try it Now!</a></p>
-									</div>
-								</div> -->
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Sunglasses6/10.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Sun Glasses</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,10.png') }}">Try it Now!</a>
+											</div>
 										</div>
-									</div>
-									<h5>Black Sunglasses</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-											file_path='static,images,Sunglasses6,10.png') }}">Try it Now!</a></p>
 									</div>
 								</div>
 
-								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
-										<img src="../static/images/Sunglasses6/11.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
-									</div>
-									<h5>Blue Sunglasses</h5>
-									<div class="simpleCart_shelfItem">
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-											file_path='static,images,Sunglasses6,11.png') }}">Try it Now!</a></p>
-									</div>
-								</div>
+
+
 
 								<!-- <div class="col-md-4 e_commerce_tab_left">
 									<div class="hs-wrapper">
 										<img src="static/images/Sunglasses6/12.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
+										
 									</div>
 									<h5>Shades</h5>
 									<div class="simpleCart_shelfItem">
@@ -846,24 +966,26 @@
 								</div> -->
 
 								<div class="col-md-4 e_commerce_tab_left">
-									<div class="hs-wrapper">
+									<div class="card text-center" style="width: 12rem;float: left; padding: 10px 0px;">
+										<div class="hs-wrapper">
 										<img src="../static/images/Sunglasses6/13.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
+										
+										</div>																																																																																								
+										   <div class="card-body card-content">
+											 <h3 class="card-title">Sun Glasses</h3>
+											 <div class="simpleCart_shelfItem">
+												<a class="item_add btn btn-primary" href="{{ url_for('tryon',method='POST',
+												file_path='static,images,Sunglasses6,13.png') }}">Try it Now!</a>
+											</div>
 										</div>
 									</div>
-									<h5>Black Sunglasses</h5>
-									<div class="simpleCart_shelfItem">
-										
-										<p><a class="item_add" href="{{ url_for('tryon',method='POST',
-											file_path='static,images,Sunglasses6,13.png') }}">Try it Now!</a></p>
-									</div>
 								</div>
+
 
 								<!-- <div class="col-md-4 e_commerce_tab_left">
 									<div class="hs-wrapper">
 										<img src="static/images/Sunglasses6/14.png" alt=" " class="img-responsive" />
-										<div class="w3_hs_bottom">
-										</div>
+										
 									</div>
 									<h5>Green Sunglasses</h5>
 									<div class="simpleCart_shelfItem">
